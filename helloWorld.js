@@ -1,7 +1,11 @@
 
 /**
- * function that displays an Hello world dialog.
+ * function that displays an Hello dialog with actual user name.
  */
-function sayHello() {
-	alert("Hello World!");
+function sayHello( userName ) {
+
+	// build custom greeting string
+	var message = "Hello " + userName + " !";
+	// and display using alert()
+	alert(message);
 }
